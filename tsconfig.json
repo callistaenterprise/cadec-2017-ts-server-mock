@@ -1,0 +1,21 @@
+{
+  "include":  [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "target",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "ES5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noResolve": true,
+    "outDir": "target/compile"
+  }
+}
