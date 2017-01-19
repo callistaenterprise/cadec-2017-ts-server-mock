@@ -1,5 +1,3 @@
-//import {ICountry} from './country.i';
-
 interface IContact {
   id: string;
   firstName: string;
